@@ -1,8 +1,8 @@
-##laravel-purity-lumen
+## laravel-purity-lumen
 
 This fork of [abbasudo/laravel-purity](https://github.com/abbasudo/laravel-purity) was created specifically to maintain compatibility with the [Lumen](https://github.com/laravel/lumen-framework) framework, a lightweight version of Laravel focused on API generation.
 
-###Installation
+### Installation
 
 Add the following to your /bootstrap/app.php
 
