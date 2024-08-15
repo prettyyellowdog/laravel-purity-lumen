@@ -21,7 +21,8 @@ class PurityServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/purity.php' => config_path('purity.php'),
+                __DIR__.'/../config/purity.php' => app()->basePath() .
+                DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'purity.php',
             ], 'purity');
 
             $this->commands([

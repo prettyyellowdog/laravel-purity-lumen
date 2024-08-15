@@ -53,7 +53,7 @@ return [
 
     'silent' => true,
 
-    'custom_filters_location' => app_path('Filters'),
+    'custom_filters_location' => app('path') . DIRECTORY_SEPARATOR . 'Filters',
 
     'null_last' => false,
 
